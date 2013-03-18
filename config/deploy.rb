@@ -2,6 +2,8 @@ set :application, "todo-app-vanilla"
 
 set :user, conf_ssh_user
 set :deploy_to, "#{conf_deploy_to}#{application}"
+set :normalize_asset_timestamps, false
+
 
 set :deploy_via, :copy
 set :copy_exclude, [
