@@ -6,4 +6,5 @@ external dependencies.
 
 You can check it out [here](http://rodolfocaldeira.com/labs/todo-app-vanilla).
 
-Please open the public/index.html file in a browser.
+If you prefer you can clone this repo and open the public/index.html file in
+a browser.
