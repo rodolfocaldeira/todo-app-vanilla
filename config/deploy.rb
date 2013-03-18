@@ -7,16 +7,10 @@ set :normalize_asset_timestamps, false
 set :deploy_via, :copy
 set :copy_exclude, [
     ".idea",
-	".sass-cache",
 	"config",
-	"design",
-	"node_modules",
-	"public",
 	".gitignore",
 	".git",
 	"Capfile",
-	"grunt.js",
-	"package.json",
 	"README.md"
 ]
 
